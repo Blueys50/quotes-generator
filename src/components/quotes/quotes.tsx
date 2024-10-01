@@ -33,7 +33,7 @@ const QuoteList: React.FC<quoteProps> = ({ quotes: favoriteQuotes }) => {
                 <div className="inner">
                   <p>Quote #{index + 1}</p>
                   <span>
-                    {quote.length > 20 ? quote.slice(0, 20) + "..." : quote}
+                    {quote.length > 15 ? quote.slice(0, 15) + "..." : quote}
                   </span>
                 </div>
               </div>
