@@ -19,7 +19,7 @@ const QuoteList: React.FC<quoteProps> = ({ quotes: favoriteQuotes }) => {
 
   return (
     <div className="wrapper">
-      <h1>Favorited Quote</h1>
+      <h1>Favorited Quotes</h1>
       <div className="cols">
         {favoriteQuotes.map((quote, index) => (
           <div className="col" onTouchStart={handleTouchStart}>
